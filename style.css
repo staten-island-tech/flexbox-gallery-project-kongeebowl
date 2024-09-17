@@ -5,13 +5,17 @@ html,
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: red;
+}
+
+body {
+    background-image: url(image/FLAG.png);
+    background-attachment: fixed;
 }
 
 .title {
     text-align: center;
     background-color: yellow;
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
 .card {
@@ -24,12 +28,14 @@ html,
     align-items: center;
     justify-content: space-around;
     margin: 2rem 0;
+    background-color: red;
+    box-shadow: 7px 7px 5px rgb(255, 244, 42);
 }
 
 .card-img {
     object-fit: contain;
-    max-width: 100%;
     flex: 1;
+    max-width: 100%;
     padding: 10px;
 }
 
@@ -51,4 +57,18 @@ html,
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+
+a, 
+a:visited, 
+a:active {
+    text-decoration: none;
+}
+
+.card {
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.2);
 }
