@@ -74,10 +74,7 @@ img {
 }
 
 .beaver:hover {
-    /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
-  
-    /* When the animation is finished, start again */
     animation-iteration-count: infinite;
 }
 
@@ -97,11 +94,13 @@ img {
 }
 
 .wok:hover {
-    
+    transform: scale(0.5,-1);
+    transition: 10s;
 }
 
 .sigma:hover {
-    
+    filter: grayscale(1.0);
+    transition: 5s;
 }
 
 .johnmao:hover {
@@ -145,10 +144,16 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+    .title {
+        margin: auto;
+        text-align: center;
+        font-size: 5rem;
+    }
     .container {
         flex-direction: column;
     }
     .card {
         width: 90%;
+        margin: auto;
     }
 }
