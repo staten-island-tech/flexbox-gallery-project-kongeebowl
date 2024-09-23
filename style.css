@@ -140,6 +140,7 @@ img {
     }
     .card {
         width: 40%;
+        height: auto;
     }
 }
 
@@ -154,6 +155,6 @@ img {
     }
     .card {
         width: 90%;
-        margin: auto;
+        height: auto;
     }
 }
