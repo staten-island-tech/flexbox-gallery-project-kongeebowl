@@ -1,13 +1,12 @@
 body, 
 html, 
 * {
-    font-size: 16px;
+    font-size: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Oxygen", sans-serif;
     font-weight: 700;
-    font-style: italic;
 }
 
 body {
